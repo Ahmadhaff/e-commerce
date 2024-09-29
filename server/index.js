@@ -12,7 +12,6 @@ const setupDB = require('./utils/db');
 const { port } = keys;
 const app = express();
 
-console.log('JWT_SECRET:', process.env.JWT_SECRET);
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
